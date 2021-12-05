@@ -28,6 +28,7 @@ puts "\n**Empleado 1**"
 puts "\nNombre: " + emp_d1.nombre
 puts "Cédula: " + emp_d1.cedula.to_s
 puts "Teléfono: " + emp_d1.telefono.to_s
+puts "Número de plaza: " + emp_d1.n_plaza.to_s
 puts "Duración de contrato: " + emp_d1.duracion_contrato.to_s + " meses"
 puts "Salario total: " + emp_d1.calcular_salario_total.to_s
 
@@ -35,6 +36,7 @@ puts "\n**Empleado 2**"
 puts "\nNombre: " + emp_d2.nombre
 puts "Cédula: " + emp_d2.cedula.to_s
 puts "Teléfono: " + emp_d2.telefono.to_s
+puts "Número de plaza: " + emp_d2.n_plaza.to_s
 puts "Duración de contrato: " + emp_d2.duracion_contrato.to_s + " meses"
 puts "Salario total: " + emp_d2.calcular_salario_total.to_s
 
@@ -50,6 +52,7 @@ puts "\n**Empleado 1**"
 puts "\nNombre: " + emp_i1.nombre
 puts "Cédula: " + emp_i1.cedula.to_s
 puts "Teléfono: " + emp_i1.telefono.to_s
+puts "Número de plaza: " + emp_i1.n_plaza.to_s
 puts "Categoría: " + emp_i1.categoria.to_s
 puts "Salario total " + emp_i1.calcular_salario_total.to_s
 
@@ -57,6 +60,7 @@ puts "\n**Empleado 2**"
 puts "\nNombre: " + emp_i2.nombre
 puts "Cédula: " + emp_i2.cedula.to_s
 puts "Teléfono: " + emp_i2.telefono.to_s
+puts "Número de plaza: " + emp_i2.n_plaza.to_s
 puts "Categoría: " + emp_i2.categoria.to_s
 puts "Salario total " + emp_i2.calcular_salario_total.to_s
 
@@ -64,6 +68,7 @@ puts "\n**Empleado 3**"
 puts "\nNombre: " + emp_i3.nombre
 puts "Cédula: " + emp_i3.cedula.to_s
 puts "Teléfono: " + emp_i3.telefono.to_s
+puts "Número de plaza: " + emp_i3.n_plaza.to_s
 puts "Categoría: " + emp_i3.categoria.to_s
 puts "Salario total " + emp_i3.calcular_salario_total.to_s
 
@@ -71,5 +76,6 @@ puts "\n**Empleado 4**"
 puts "\nNombre: " + emp_i4.nombre
 puts "Cédula: " + emp_i4.cedula.to_s
 puts "Teléfono: " + emp_i4.telefono.to_s
+puts "Número de plaza: " + emp_i4.n_plaza.to_s
 puts "Categoría: " + emp_i4.categoria.to_s
 puts "Salario total " + emp_i4.calcular_salario_total.to_s
